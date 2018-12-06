@@ -45,7 +45,7 @@ public class UniversBoot: MonoBehaviour
         //set the position
         entityManager.SetComponentData(celestialBodyEntity, new Position { Value = initialPosition });
         //init the direction of the entity
-        Vector2 direction = Random.insideUnitSphere;
+        Vector2 direction = new Vector2(0,0);// Random.insideUnitSphere;
         CelestialBody celestB = new CelestialBody
         {
             position = initialPosition,

@@ -161,7 +161,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 80
+  orthographic size: 50
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -219,11 +219,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
   _mat: {fileID: 2100000, guid: 969197d7e0d5696488d0e51f7de4c83f, type: 2}
-  _bodyNumber: 400
+  _bodyNumber: 1000
   _SpawnAreaSize:
-    x: 40
-    y: 40
-  _mass: 5
+    x: 48
+    y: 48
+  _mass: 10
 --- !u!4 &1501056590
 Transform:
   m_ObjectHideFlags: 0
