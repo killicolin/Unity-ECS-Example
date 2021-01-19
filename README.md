@@ -1,4 +1,4 @@
-# Unity-ECS-Exemples
+# Unity-ECS-Exemples (Deprecated)
 Unity ECS + C# Job System example 
 # Demo:
 
